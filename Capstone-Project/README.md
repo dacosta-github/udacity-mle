@@ -7,7 +7,7 @@
 ***Keywords***: *Machine Learning, Multi-Class, Text Classification, Logistics Regression, SVM, Linear SVC, Complaints*
 
 
-You can read the full project report here and check the implementation here
+You can read the full project report [here](https://github.com/dacosta-github/udacity-mle/tree/master/Capstone-Project/report/report.pdf) and check the implementation [here](https://github.com/dacosta-github/udacity-mle/tree/master/Capstone-Project)
 
 
 This is the final project of the specialization **2020 Machine Learning Engineer Nanodegree**.
