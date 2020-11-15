@@ -1,4 +1,4 @@
-# Complaints Text Classification (Muti-Class)
+# Complaints Text Classification (Multi-Class)
 
 #### Abstract
 
