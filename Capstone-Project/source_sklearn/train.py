@@ -133,7 +133,7 @@ def cv_metric_scores(X_train , y_train, n_splits, seed, model_type) -> pd.DataFr
     
     return df_cv_metric_scores
 
-# tokenizer words in vectors 
+# tokenizer words in vectors TfidfVectorizer
 def tokenize_TfidfVectorizer(X_train, X_test, stop_words, is_bigram:True):
     
     if is_bigram:
@@ -166,7 +166,7 @@ def tokenize_TfidfVectorizer(X_train, X_test, stop_words, is_bigram:True):
         'word_vectorizer': word_vectorizer
     }
 
-# tokenizer words in vectors 
+# tokenizer words in vectors CountVectorizer
 def tokenize_CountVectorizer(X_train, X_test, stop_words, is_bigram:True):
     
     if is_bigram:
@@ -199,7 +199,7 @@ def tokenize_CountVectorizer(X_train, X_test, stop_words, is_bigram:True):
         'word_vectorizer': word_vectorizer
     }
 
-#https://www.codementor.io/@rohitagrawalofficialmail/analyzing-text-classification-techniques-on-youtube-data-x5sa1cdvw
+#Ref: https://www.codementor.io/@rohitagrawalofficialmail/analyzing-text-classification-techniques-on-youtube-data-x5sa1cdvw
 def features_correlated (word_vectorizer, _pre_features, df_products, df_products_id, product_to_id, n):
     """
         This function allows check if the features extracted using TF-IDF vectorization made any sense
