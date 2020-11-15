@@ -1,15 +1,16 @@
 # Udacity Machine Learning Engineer
 
 
+### Projects
 
-**[https://github.com/dacosta-github] Project 1 - Sentiment Analysis Deploy**
-
-
-**[https://github.com/dacosta-github] Project 2 - Plagiarism Detector**
+**[Project 1 - Sentiment Analysis Deploy](https://github.com/dacosta-github/udacity-mle/tree/master/Deploying-Sentiment-Analysis-Model)**
 
 
-**[https://github.com/dacosta-github] Project 3 - Capstone Project Propose - Complaints (Multi-Class) Text Classification**
+**[Project 2 - Plagiarism Detector](https://github.com/dacosta-github/udacity-mle/tree/master/Plagiarism-Detector)****
 
 
-**[https://github.com/dacosta-github] Project 4 - Capstone Project - Complaints Text Classification**
+**[Project 3 - Capstone Project Propose - Complaints (Multi-Class) Text Classification](https://github.com/dacosta-github/udacity-mle/blob/master/Capstone-Project/proposal_report/proposal.pdf)****
+
+
+**[Project 4 - Capstone Project - Complaints Text Classification](https://github.com/dacosta-github/udacity-mle/tree/master/Capstone-Project/)****
 
