@@ -9,7 +9,7 @@ This subfolder contains my final project, the capstone proposal and respective m
 ***Keywords***: *Machine Learning, Multi-Class, Text Classification, Logistics Regression, SVM, Linear SVC, Complaints*
 
 
-You can read the full project report [here](https://github.com/dacosta-github/udacity-mle/tree/master/Capstone-Project/report/report.pdf) and check the implementation [here](https://github.com/dacosta-github/udacity-mle/tree/master/Capstone-Project)
+You can read the full project report [here](https://github.com/dacosta-github/udacity-mle/blob/master/Capstone-Project/final_report/report.pdf) and check the implementation [here](https://github.com/dacosta-github/udacity-mle/tree/master/Capstone-Project)
 
 
 This is the final project of the specialization **2020 Machine Learning Engineer Nanodegree**.
@@ -18,14 +18,14 @@ This is the final project of the specialization **2020 Machine Learning Engineer
 #### Dependecies
 This project requires Python 3 and the following Python dependencies installed:
 
-* NumPy
-* Pandas
+* numPy
+* pandas
 * matplotlib (for data visualization)
-* Jupyter Notebook
+* jupyter notebook
 * scikit-learn
 * nltk 
 * pickle (use to save sklearn models)
-* Seaborn (for data visualization)
+* seaborn (for data visualization)
 * joblib (use to save sklearn models)
 * sweetviz (for data exploration)
 * pandas_profiling (for data exploration)
