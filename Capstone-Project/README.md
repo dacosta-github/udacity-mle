@@ -38,7 +38,7 @@ This project requires Python 3 and the following Python dependencies installed:
 You will also need to have software installed to run and execute a Jupyter Notebook
 
 #### Run
-In a terminal or command window, navigate to the top-level project directory udacity-mle/Capstone-Project/ (that contains this README), run the next following commands:
+In a terminal or command window, navigate to the top-level project directory ```udacity-mle/Capstone-Project/``` (that contains this README), run the next following commands:
 
 ```jupyter notebook 01_data_collection.ipynb```
 
