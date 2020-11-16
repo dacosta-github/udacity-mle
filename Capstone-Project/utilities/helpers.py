@@ -16,11 +16,12 @@ from sklearn.model_selection import train_test_split
 
 # download a file based on url
 def download(url: str, dest_folder: str, unzip: int):
-    '''Reads URL file, listed directori, make a file download and saving this to same folder. 
-       :param url: A dataframe of file information including a column for `File`
+    '''Reads URL file, list of directory, make a file download and saving this to same folder. 
+       :param url: A dataframe of file url information to download - including a column for `File`
        :param dest_folder: the main directory where files are stored
        :param_unzip: if we want unzip the file
-       :return: A string with file name'''
+       :return: A string with file name
+    '''
     
     if not os.path.exists(dest_folder):
         os.makedirs(dest_folder); # create folder if it doesn't exist
@@ -66,12 +67,13 @@ def download(url: str, dest_folder: str, unzip: int):
 
 # Pickling our subsetted dataframe
 def save_pickle(dest_folder, df, file_name: str):
-    '''Reads URL file, listed directori, make a file download and saving this to same folder. 
+    '''Reads df and directory and save a file.
        :param file_name: the name for pickle file
        :param dest_folder: the main directory where files are stored
        :param df: data fram that we want save in pickle
-       :return: A string with status'''
-    
+       :return: A string with status
+    '''
+
     if not os.path.exists(dest_folder): # Make sure that the folder exists
         os.makedirs(dest_folder)
 
@@ -83,10 +85,11 @@ def save_pickle(dest_folder, df, file_name: str):
 
 # Load pickle file
 def load_pickle(folder, file_name: str):
-    '''Reads URL file, listed directori, make a file download and saving this to same folder. 
+    '''Reads df and directory and save a file.
        :param file_name: the name for pickle file
        :param folder: the main directory where files are load
-       :return: A dataframe'''
+       :return: A dataframe
+    '''
     
     with open(os.path.join(folder, file_name+'.pkl'), 'rb') as to_read:
         pickle_df = pickle.load(to_read);
