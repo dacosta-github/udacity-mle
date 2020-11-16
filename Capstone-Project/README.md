@@ -41,7 +41,7 @@ This project requires Python 3 and the following Python dependencies installed:
 * train/source_sklearn.py (training and pre-processing functions used through the project)
 * webapp/myclassifier_webapp.py (for data model exploration)
 
-You will also need to have software installed to run and execute a Jupyter Notebook
+You will also need to have software installed to run and execute a Jupyter Notebooks.
 
 #### Run
 In a terminal or command window, navigate to the top-level project directory ```udacity-mle/Capstone-Project/``` (that contains this README), run the next following commands (are supposed to be ran in order):
@@ -68,6 +68,8 @@ To run the web app you need to run the following command:
 
 #### Notes
 
+* This project is designed to be completed through the Jupyter Notebooks IDE and web app exploration.
 * Requirements for ```02_data_exploration.ipynb``` assume that in the folder ```/dataset``` there is the csv file with the raw data (called complainsb.csv). You can download it [here](https://files.consumerfinance.gov/ccdb/complaints.csv.zip), or run notebook ```01_data_collection.ipynb```.
 * Requirements for running the application, assume that in the folder ``webapps/models`` there are 3 files generated through the notebook ``06_deployment_model.ipynb`. The files are already in the folder.
 * The references which supported this project can be found in the final report.
+
