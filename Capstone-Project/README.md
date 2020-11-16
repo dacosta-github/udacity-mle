@@ -65,3 +65,5 @@ To run the web app you need to run the following command:
 #### Notes
 
 * Requirements for ```02_data_exploration.ipynb``` assume that in the folder ```/dataset``` there is the csv file with the raw data (called complainsb.csv). You can download it [here](https://files.consumerfinance.gov/ccdb/complaints.csv.zip), or run notebook ```01_data_collection.ipynb```.
+* Requirements for running the application, assume that in the folder ``webapps/models`` there are 3 files generated through the notebook ``06_deployment_model.ipynb`. The files are already in the folder.
+* The references which supported this draft can be found in the final report.
