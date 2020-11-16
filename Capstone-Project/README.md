@@ -41,7 +41,7 @@ This project requires Python 3 and the following Python dependencies installed:
 * pathlib
 * zipfile (for unzip data)
 * utilities/helpers.py (various utility functions used through the project)
-* train/source_sklearn.py (training and pre-processing functions used through the project)
+* source_sklearn/train.py (training and pre-processing functions used through the project)
 * webapp/myclassifier_webapp.py (for data model exploration)
 
 You will also need to have software installed to run and execute a Jupyter Notebooks.
