@@ -1,4 +1,6 @@
-# Complaints Text Classification (Multi-Class)
+This subfolder contains my final project, the capstone proposal and respective material to replicate the results.
+
+# Project Title: Complaints Text Classification (Multi-Class)
 
 #### Abstract
 
@@ -38,7 +40,7 @@ This project requires Python 3 and the following Python dependencies installed:
 You will also need to have software installed to run and execute a Jupyter Notebook
 
 #### Run
-In a terminal or command window, navigate to the top-level project directory ```udacity-mle/Capstone-Project/``` (that contains this README), run the next following commands:
+In a terminal or command window, navigate to the top-level project directory ```udacity-mle/Capstone-Project/``` (that contains this README), run the next following commands (are supposed to be ran in order):
 
 ```jupyter notebook 01_data_collection.ipynb```
 
@@ -62,3 +64,4 @@ To run the web app you need to run the following command:
 
 #### Notes
 
+* Requirements for ```02_data_exploration.ipynb``` assume that in the folder ```/dataset``` there is the csv file with the raw data (called complainsb.csv). You can download it [here](https://files.consumerfinance.gov/ccdb/complaints.csv.zip), or run notebook ```01_data_collection.ipynb```.
