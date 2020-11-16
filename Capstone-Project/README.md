@@ -18,14 +18,14 @@ This is the final project of the specialization **2020 Machine Learning Engineer
 #### Dependecies
 This project requires Python 3 and the following Python dependencies installed:
 
-* NumPy
-* Pandas
+* numpy
+* pandas
 * matplotlib (for data visualization)
-* Jupyter Notebook
+* jupyter-notebook
 * scikit-learn
 * nltk 
 * pickle (use to save sklearn models)
-* Seaborn (for data visualization)
+* seaborn (for data visualization)
 * joblib (use to save sklearn models)
 * sweetviz (for data exploration)
 * pandas_profiling (for data exploration)
