@@ -20,22 +20,26 @@ This project requires Python 3 and the following Python dependencies installed:
 
 * NumPy
 * Pandas
-* matplotlib
+* matplotlib (for data visualization)
 * Jupyter Notebook
 * scikit-learn
-* nltk
-* pickle
-* sweetviz
-* pandas_profiling
-* langdetect
-* request
-* streamlit
+* nltk 
+* pickle (use to save sklearn models)
+* Seaborn (for data visualization)
+* joblib (use to save sklearn models)
+* sweetviz (for data exploration)
+* pandas_profiling (for data exploration)
+* langdetect (for stop words analysis and language detect)
+* request (for download data)
+* streamlit (for data visualization)
 * scipy.stats
 * os
 * re
-* requests
 * pathlib
-* zipfile
+* zipfile (for unzip data)
+* utilities/helpers.py (various utility functions used through the project)
+* train/source_sklearn.py (training and pre-processing functions used through the project)
+* webapp/myclassifier_webapp.py (for data model exploration)
 
 You will also need to have software installed to run and execute a Jupyter Notebook
 
